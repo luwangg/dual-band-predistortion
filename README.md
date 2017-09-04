@@ -1,2 +1,1 @@
-# PA-predistortion
-multi-band predistortion
+针对并发双频段功率放大器的特殊非线性特性，提出了一种新型简化双频段数字预失真模型(Modified Odd Dual-Band Digital Predistortion,MO2D-DPD模型)。传统双频段模型(Dual-Band Digital Predistortion,2D-DPD模型)中偶次项对模型精度影响不大，提出的新模型由奇次记忆多项式模型推导构建，达到相同线性化效果的前提下，新模型相比2D-DPD模型参数大大减少，模型复杂度降低。经测试当两种模型（5阶记忆深度为2）预失真输出ACPR改善都在20dBc以上时，而新模型参数减少了一半以上。
